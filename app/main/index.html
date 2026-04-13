@@ -2,11 +2,40 @@
 <html lang="en">
     <head>
         <title>Fadeout-Web</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- <link rel="stylesheet" href="htps://fonts.googleapis.com/css?family=" -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
     </head>
+
     <body>
-        <a>test</a>
+        <!-- ............ HEADER ............ -->
+        <div class="header" id="header">
+
+            <!-- ITEMS ON LEFT OF HEADER -->
+            <div class="headerDiv" id="leftHeaderItems">
+                <!-- <h1 class="headerItem" id="titleText">FADEOUT</h1> -->
+                 <img src="main_assets/FADEOUTText.svg" class="headerItem" id="titleText">
+            </div>
+
+            <!-- ITEMS ON CENTER OF HEADER -->
+            <div class="headerDiv" id="centerHeaderItems">
+                    <h2 class="headerItem" id="homeText">HOME</h2>
+                    <h2 class="headerItem" id="charText">CHARACTERS</h2>
+                    <h2 class="headerItem" id="rulesText">RULEBOOK</h2>
+            </div>
+
+            <!-- ITEMS ON RIGHT OF HEADER -->
+            <div class="headerDiv" id="rightHeaderItems">
+                <!-- PLACEHOLDER FOR OPTIONS -->
+                    <select class="headerItem" id="accountActions">
+                        <button><selectedcontent></selectedcontent></button>
+                        <option selected="selected">PLACE HLDR</option>
+                        <option class="accActionsOption" value="logIn">LOG IN</option>
+                        <option class="accActionsOption" value="logOut">LOG OUT</option>
+                    </select>
+            </div>
+        </div>
+
+        <!-- ............ SCRIPTS ............ -->
+        <script src="index.js" type="module"></script>
     </body>
 </html>
