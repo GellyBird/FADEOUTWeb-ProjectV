@@ -16,7 +16,7 @@
     align-items: center;
     flex-wrap: wrap;
     background-image: linear-gradient(to top,#503002,transparent),url(/app/global_assets/FadeoutBackground.svg);
-    background-repeat: no-repeat;
+    background-position: top center;
     background-blend-mode:hard-light;
     background-clip: border-box;
     background-size: 100% auto;
